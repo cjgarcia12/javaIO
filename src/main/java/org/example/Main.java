@@ -12,6 +12,7 @@ public class Main {
 
         try (BufferedReader br1 = new BufferedReader(new FileReader("src/input1.txt"))) {
             String line;
+            // reads every line in input1.txt and adds it to list1
             while ((line = br1.readLine()) != null) {
                 try {
                     list1.add(Integer.parseInt(line));
@@ -27,6 +28,7 @@ public class Main {
 
         try (BufferedReader br2 = new BufferedReader(new FileReader("src/input2.txt"))) {
             String line;
+            // reads every line in input2.txt and adds it to list2
             while ((line = br2.readLine()) != null) {
                 try {
                     list2.add(Integer.parseInt(line));
